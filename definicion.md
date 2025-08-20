@@ -18,21 +18,5 @@ Para ilustrar esta distinción en contextos familiares: cuando utilizamos el rec
 
 
 
-\## 📚 Referencias
 
-
-
-Microsoft. (2024, marzo 15). Inteligencia artificial: una guía completa. Recuperado de https://www.microsoft.com/es-es/ai/ai-guide
-
-
-
-Oracle. (2024). Machine Learning explicado: algoritmos, modelos y aplicaciones. Recuperado el 19 de agosto de 2025, de https://www.oracle.com/mx/artificial-intelligence/machine-learning/what-is-machine-learning/
-
-
-
-MIT Technology Review. (2024, febrero 8). The difference between AI and machine learning, explained. Recuperado de https://www.technologyreview.com/2024/02/08/artificial-intelligence-machine-learning-difference/
-
-
-
-Stanford University. (2024). Introduction to Machine Learning. CS229 Course Materials. Recuperado el 19 de agosto de 2025, de https://cs229.stanford.edu/
 
