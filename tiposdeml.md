@@ -20,7 +20,7 @@ A continuación los tipos:
 
 El machine learning supervisado es un tipo de machine learning en el que el modelo se entrena con un conjunto de datos etiquetados (es decir, se conoce la variable objetivo o de resultado). Por ejemplo, si los científicos de datos estuvieran construyendo un modelo para la predicción de tornados, las variables de entrada podrían incluir la fecha, la ubicación, la temperatura, los patrones de flujo del viento y más, y el output sería la actividad real de tornados registrada para esos días.
 
-El aprendizaje supervisado se utiliza habitualmente para la evaluación de riesgos, el reconocimiento de imágenes, el análisis predictivo y la detección del fraude, y comprende varios tipos de algoritmos.
+El aprendizaje supervisado se utiliza habitualmente para la evaluación de riesgos, el reconocimiento de imágenes, el análisis predictivo y la detección del fraude, y comprende varios tipos xzcxxdffdxxxxxxxxxxxxxxxxsdfdfsdedeeeddfcde algoritmos.
 
 
 
