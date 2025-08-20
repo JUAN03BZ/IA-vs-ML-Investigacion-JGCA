@@ -2,42 +2,67 @@ TIPOS DE MACHINE LEARNING
 
 
 
-El Machine Learning (ML) es una rama dentro de la informática, la ciencia de datos y la inteligencia artificial (IA) que permite a los sistemas aprender y mejorar automáticamente a partir de la experiencia o los datos, sin necesidad de ser programados de manera explícita para cada tarea.
+**1. Aprendizaje Supervisado**
+
+Este es el tipo más común de Machine Learning. El modelo aprende a partir de datos etiquetados, es decir, conjuntos de datos donde cada entrada ya tiene su "respuesta" o "etiqueta" correcta. El objetivo del modelo es aprender a predecir esa etiqueta para datos nuevos.
 
 
 
-A diferencia de los métodos tradicionales basados en reglas fijas, el ML utiliza algoritmos y modelos estadísticos que identifican patrones en los datos y generan inferencias. De esta forma, los sistemas pueden predecir resultados, clasificar información o tomar decisiones en función de los datos de entrada. Además, tienen la capacidad de adaptarse y actualizarse de manera continua conforme reciben nueva información, lo que los hace especialmente útiles en entornos dinámicos donde los datos cambian constantemente.
+¿Cómo funciona? Imagina que le das a un modelo miles de fotos de perros y gatos, y cada foto está claramente etiquetada como "perro" o "gato". El modelo aprende a identificar las características de cada animal por sí mismo, y una vez entrenado, puede clasificar una foto nueva y sin etiqueta como "perro" o "gato" con un alto grado de precisión.
 
 
 
-A continuación los tipos:
+Casos de uso: Detección de spam en correos electrónicos, reconocimiento de imágenes, análisis de sentimiento y predicción de precios.
 
 
 
-**1. Machine learning supervisado**
+Tipos de algoritmos:
 
 
 
-El machine learning supervisado es un tipo de machine learning en el que el modelo se entrena con un conjunto de datos etiquetados (es decir, se conoce la variable objetivo o de resultado). Por ejemplo, si los científicos de datos estuvieran construyendo un modelo para la predicción de tornados, las variables de entrada podrían incluir la fecha, la ubicación, la temperatura, los patrones de flujo del viento y más, y el output sería la actividad real de tornados registrada para esos días.
-
-El aprendizaje supervisado se utiliza habitualmente para la evaluación de riesgos, el reconocimiento de imágenes, el análisis predictivo y la detección del fraude, y comprende varios tipos de algoritmos.
+Clasificación: Predice una etiqueta categórica (p. ej., sí/no, perro/gato).
 
 
 
-* Algoritmos de regresión: predicen valores de output identificando relaciones lineales entre valores reales o continuos (por ejemplo, temperatura, salario). Los algoritmos de regresión incluyen la regresión lineal, el bosque aleatorio y el gradient boosting o potenciación del gradiente, así como otros subtipos.
+Regresión: Predice un valor numérico continuo (p. ej., el precio de una casa, la temperatura).
 
 
 
-* Algoritmos de clasificación: predicen variables de output categóricas (por ejemplo, "basura" o "no basura") etiquetando piezas de datos de entrada. Los algoritmos de clasificación incluyen, entre otros, la regresión logística, los vecinos más próximos y las máquinas de vectores de soporte (SVM).
+**2. Aprendizaje No Supervisado**
+
+Este tipo de aprendizaje utiliza datos sin etiquetar. El modelo no tiene respuestas correctas de antemano. Su objetivo es encontrar patrones, estructuras y relaciones ocultas en los datos por sí mismo.
 
 
 
-* Clasificadores Naïve Bayes: permiten tareas de clasificación para grandes conjuntos de datos. También forman parte de una familia de algoritmos de aprendizaje generativo que modelan la distribución de entrada de una clase o categoría determinada. Los algoritmos Naïve Bayes incluyen árboles de decisión, que en realidad pueden acomodar tanto algoritmos de regresión como de clasificación.
+¿Cómo funciona? Piensa en un supermercado que quiere entender mejor a sus clientes. El modelo de aprendizaje no supervisado podría analizar el historial de compras de miles de clientes (datos sin etiquetar) y agruparlos automáticamente en categorías como "compradores ocasionales", "familias jóvenes" o "compradores de productos orgánicos".
 
 
 
-* Redes neuronales: simulan el funcionamiento del cerebro humano, con un enorme número de nodos de procesamiento conectados que pueden facilitar procesos como la traducción de lenguaje natural, el reconocimiento de imágenes, el reconocimiento del habla y la creación de imágenes.
+Casos de uso: Segmentación de clientes, sistemas de recomendación (p. ej., de Netflix), detección de anomalías (p. ej., fraude bancario) y reducción de la dimensionalidad.
 
 
 
-* Algoritmos de bosque aleatorio: predicen un valor o una categoría combinando los resultados de varios árboles de decisión.
+Tipos de algoritmos:
+
+
+
+Clustering: Agrupa datos similares en conjuntos o clústeres.
+
+
+
+Asociación: Identifica relaciones entre diferentes elementos (p. ej., "las personas que compran A también suelen comprar B").
+
+
+
+**3. Aprendizaje por Refuerzo**
+
+En este tipo de aprendizaje, un "agente" (el modelo) aprende a tomar decisiones en un entorno para maximizar una "recompensa". No hay un conjunto de datos preexistente; el modelo aprende a través de la interacción, el ensayo y error.
+
+
+
+¿Cómo funciona? Es similar a cómo un niño aprende a andar en bicicleta. Cuando pedalea correctamente y se mantiene en equilibrio, recibe una "recompensa" (una señal positiva). Si se cae, recibe un "castigo" (una señal negativa). El modelo, a través de estas interacciones, aprende la mejor secuencia de acciones para lograr su objetivo.
+
+
+
+Casos de uso: Robótica (enseñar a un robot a caminar), vehículos autónomos, entrenamiento de IA para jugar videojuegos (como ajedrez o Go) y optimización de cadenas de suministro.
+
