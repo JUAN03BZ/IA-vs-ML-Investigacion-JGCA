@@ -64,5 +64,5 @@ En este tipo de aprendizaje, un "agente" (el modelo) aprende a tomar decisiones 
 
 
 
-Casos de uso: Robótica (enseñar a un robot a caminar), vehículos autónomos, entrenamiento de IA para jugar videojuegos (como ajedrez o Go) y optimización de cadenas de suministro.
+Casos de uso: Robótica (enseñar a un robot a caminar), vehículos autónomos, entrenamiento de IA para jugar videojuegos (como ajedrez o Go) y optimización de cadenas de suministro
 
