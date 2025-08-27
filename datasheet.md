@@ -1,3 +1,7 @@
+############################################################################################################################################
+German Bautista D-pandas-avanzado
+
+
 # Pandas
 ## Operaciones avanzadas en DataFrames
 
@@ -11,6 +15,7 @@
 
 - Las operaciones lógicas en Pandas facilitan la combinación de varias condiciones de filtrado con el fin de extraer subconjuntos específicos de un DataFrame, utilizando operadores como & (AND), | (OR) y ~ (NOT).
 
+## Ejemplo
 
 ```python
  
@@ -38,6 +43,8 @@ print(df[(df['Ciudad'] == 'Bogotá') | (df['Ciudad'] == 'Cali')])
 
 - Funcion df.groupby
 
+## Ejemplo
+
 ```python
 
 # Promedio de salario por ciudad
@@ -52,6 +59,8 @@ print(df.groupby('Ciudad')['Edad'].agg(['mean', 'max', 'min']))
 - Combinar DataFrames, similar a JOIN en SQL.
 
 - Funcion pd.DataFrame()
+
+## Ejemplo
 
 ```python
 
@@ -74,6 +83,8 @@ print(pd.merge(df1, df2, on='ID', how='outer'))
 
 - funcion dropna(), fillna(), isnull()
 
+## Ejemplo
+
 ```python
 
 df_null = pd.DataFrame({
@@ -94,6 +105,8 @@ print(df_null.fillna(df_null.mean())) # Rellenar con promedio
 - Funcion Exportacion to_csv(), to_excel(), to_json()
 
 - Funcion Importacion read_csv(), read_excel(), read_json()
+
+## Ejemplo
 
 ```python
 
