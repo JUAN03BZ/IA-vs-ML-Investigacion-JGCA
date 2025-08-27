@@ -65,6 +65,7 @@ print(secuencia)
 [0 2 4 6 8]
 ```
 
+
 ## 5. Numeros Espaciados (np.linspace)
 
 - Ejemplo
