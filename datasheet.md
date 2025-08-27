@@ -5,7 +5,7 @@ Operaciones estadisticas y funciones avanzadas - Andres Canasto
 
 Esta sección muestra ejemplos de uso de funciones estadísticas y avanzadas de la librería **NumPy**, ejecutados en Google Colab.
 
-##**1. ** Promedio (np.mean)
+## 1. Promedio (np.mean)
 
 - Ejemplo
 
@@ -24,7 +24,7 @@ Arreglo: [1 2 3 4 5]
 Promedio: 3.0
 ```
 
-##**2. **Desviación estándar (np.std)
+## 2. Desviación estándar (np.std)
 
 - Ejemplo
 
@@ -38,7 +38,7 @@ print("Desviación estándar:", np.std(arr))
 Desviación estándar: 1.4142135623730951
 ```
 
-##**3. **Suma (np.sum)
+##  3. Suma (np.sum)
 
 - Ejemplo
 
@@ -50,7 +50,7 @@ print("Suma de elementos:", np.sum(arr))
 
 Suma de elementos: 15
 
-##**4. Creacion de Secuencias (np.arange)
+## 4. Creacion de Secuencias (np.arange)
 
 - Ejemplo
 
@@ -65,7 +65,7 @@ print(secuencia)
 [0 2 4 6 8]
 ```
 
-##**5. **Numeros Espaciados (np.linspace)
+## 5. Numeros Espaciados (np.linspace)
 
 - Ejemplo
 
@@ -77,7 +77,7 @@ print(espaciado)
 
 [0.   0.25 0.5  0.75 1.  ]
 
-##**6. **Aleatorios (np.random.rand)
+## 6. Aleatorios (np.random.rand)
 
 - Ejemplo
 
