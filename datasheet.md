@@ -61,9 +61,11 @@ print(secuencia)
 
 **Resultado**
 
+```python
 [0 2 4 6 8]
+```
 
-5. Numeros Espaciados (np.linspace)
+**5. **Numeros Espaciados (np.linspace)
 
 - Ejemplo
 
@@ -75,7 +77,7 @@ print(espaciado)
 
 [0.   0.25 0.5  0.75 1.  ]
 
-6. Aleatorios (np.random.rand)
+**6. **Aleatorios (np.random.rand)
 
 - Ejemplo
 
@@ -93,3 +95,4 @@ Producto matricial:
 
 Como conclusion, es que trabajar con las funciones estadísticas y avanzadas de NumPy es súper útil porque nos ahorra tiempo y esfuerzo al hacer cálculos que de otra forma serían largos o complicados. Con unos pocos comandos podemos sacar promedios, desviaciones, sumar datos, crear secuencias o hasta generar números aleatorios para hacer pruebas. Además, con las operaciones de álgebra lineal como el producto de matrices, se pueden resolver problemas que son la base de muchas aplicaciones modernas como la inteligencia artificial o el análisis de grandes volúmenes de datos.
 En pocas palabras, NumPy nos da las herramientas necesarias para trabajar con datos de forma rápida, sencilla y muy eficiente
+------------------------------------------------------------------------------------------------------------
